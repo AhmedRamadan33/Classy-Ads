@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClassyAds — Colorlib Website Template</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- ////////////////////////////////////// -->
+    <header class="header container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <h1>
+          <a class="navbar-brand" href="#"
+            >Classy<span class="text-primary">Ads</span>
+          </a>
+        </h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ads.html">Ads</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">
+                <span class="border-left pl-xl-4"></span>
+                Log in</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Rigister</a>
+            </li>
+            <span class="btn">+ post an Ad</span>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <body>
+    <section class="home_ads">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12">
+            <div class="row justify-content-center">
+              <div class="col-xl-8 col-lg-8 col-md-8">
+                <div class="text_home">
+                  <h1>Contact Us</h1>
+                  <p>Get In Touch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //////////////// -->
+    <section class="contact p-70 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7290574.331619818!2d26.379632898861704!3d26.844699062075208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14368976c35c36e9%3A0x2c45a00925c4c444!2sEgypt!5e0!3m2!1sen!2seg!4v1662078064148!5m2!1sen!2seg"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h3 class="contact-title">Get in Touch</h3>
+          </div>
+          <div class="col-lg-8">
+            <form
+              class="form-contact contact_form"
+              action="contact_process.php"
+              method="post"
+              id="contactForm"
+              novalidate="novalidate"
+            >
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group">
+                    <textarea
+                      class="form-control w-100"
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="9"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Enter Message'"
+                      placeholder=" Enter Message"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      class="form-control valid"
+                      name="name"
+                      id="name"
+                      type="text"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Enter your name'"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      class="form-control valid"
+                      name="email"
+                      id="email"
+                      type="email"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Enter email address'"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      name="subject"
+                      id="subject"
+                      type="text"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Enter Subject'"
+                      placeholder="Enter Subject"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <button
+                  type="submit"
+                  class="button button-contactForm boxed-btn">Send</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-3 offset-lg-1">
+            <div class="media contact-info">
+              <span><i class="fa-solid fa-house"></i></span>
+              <div class="media-body">
+                <h4>Buttonwood, California.</h4>
+                <p>Rosemead, CA 91770</p>
+              </div>
+            </div>
+            <div class="media contact-info">
+              <span><i class="fa-solid fa-tablet"></i></span>
+              <div class="media-body">
+                <h4>+1 253 565 2365</h4>
+                <p>Mon to Fri 9am to 6pm</p>
+              </div>
+            </div>
+            <div class="media contact-info">
+              <span><i class="fa-solid fa-envelope"></i></i></span>
+              <div class="media-body">
+                <h4>support@colorlib.com</h4>
+                <p>Send us your query anytime!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ////////////////////////////// -->
+    <footer class="about p-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3">
+            <h2 class="footer-heading mb-4">About</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Provident rerum unde possimus molestiasdolorem fuga, illo quis
+              fugiat!
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <h2 class="footer-heading mb-4">Navigations</h2>
+            <ul class="list-unstyled">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <h2 class="footer-heading mb-4">Follow Us</h2>
+            <div class="icon">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <form action="#" method="post">
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control border-secondary text-white bg-transparent"
+                  placeholder="Search products..."
+                  aria-label="Enter Email"
+                  aria-describedby="button-addon2"
+                />
+                <div class="input-group-append">
+                  <button
+                    class="btn btn-primary text-white"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    Search
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p>
+                Copyright © 2022 All rights reserved | This template is made
+                with
+                <a href="#" class="bookmark"
+                  ><span class="icon-heart"
+                    ><i class="fa-solid fa-heart"></i></span
+                ></a>
+                by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ////////////////////////////////////////////////////////////// -->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
